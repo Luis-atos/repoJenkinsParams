@@ -1,10 +1,10 @@
 pipeline{
 	agent any
 	stages{
-		stage{('pprimero'){
+		stage('pprimero'){
 			print "Primerostage"
 		}
-		stage{('second'){
+		stage('second'){
 			print "second"
 		}
 	}
