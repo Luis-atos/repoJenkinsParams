@@ -1,5 +1,16 @@
+import groovy.transform.Field
+import java.text.SimpleDateFormat
+
 def call(Map params){
   pipeline{
+    agent{
+      node{
+        label 'windows'
+      }
+    }
+    tools{
+      maven 'Maven 3.5.3'
+    }
     stages{
       stage('parametros'){
         steps{
