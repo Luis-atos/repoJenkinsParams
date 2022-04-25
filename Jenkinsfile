@@ -1,5 +1,6 @@
 @Library('JenkinsfileComun')
 
+
 def params = [:]
 echo " *******mensaje de entrada **** "
 params.put("Tecnologia","JavaLuis")
