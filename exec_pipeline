@@ -1,0 +1,14 @@
+def call(Map params){
+  pipeline{
+    stages{
+      stage('parametros'){
+        steps{
+          script{
+            echo " ****** parametros de entrada ******** "
+            echo " parametro1: ${params.Tecnologia} "
+          }
+        }
+      }
+    }
+  }
+}
