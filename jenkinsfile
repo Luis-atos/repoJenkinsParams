@@ -1,16 +1,7 @@
-pipeline{
-	agent any
-	stages{
-		stage('pprimero'){
-		  steps{
-			echo "Primerostage"
-		  }
-		}
-		stage('second'){
-		  steps{
-			echo "second"
-		  }
-		}
-	}
+@Library('JenkinsfileComun')
 
-}
+def params = [:]
+
+params.put("Tecnologia","JavaLuis")
+
+exec_pipeline(params)
