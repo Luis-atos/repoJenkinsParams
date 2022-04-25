@@ -1,7 +1,7 @@
-@Library('JenkinsfileComun')
+@Library('ejemplo-shared-library')
 
 def params = [:]
 
 params.put("Tecnologia","JavaLuis")
 
-exec_pipeline(params)
+global(params)
