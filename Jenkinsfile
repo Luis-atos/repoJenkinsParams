@@ -6,5 +6,5 @@ echo ' *******mensaje de entrada **** '
 params.put("Tecnologia","JavaLuis")
 
 echo ' *******llamando libreria **** '
-exec_pipeline(params)
+global_nuevo("par1","par2")
 echo ' *******fin de libreria **** '
