@@ -1,4 +1,4 @@
-@Library('JenkinsfileComun')
+@Library('ejemplo-shared-library')
 
 
 def params = [:]
