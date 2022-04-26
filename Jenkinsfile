@@ -1,4 +1,4 @@
-@Library('ejemplo-shared-library') _
+@Library('ejemplo-shared-library2') _
 
 
 def params = [:]
