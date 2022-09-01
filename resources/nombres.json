@@ -1,6 +1,5 @@
 {
-    'url':'https://migit.git'
-    'servidor1':'srvcmal46d'
+    'url':'https://migit.git',
+    'servidor1':'srvcmal46d',
     'servidor2':'srvcmal55d'
-
 }
