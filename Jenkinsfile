@@ -7,6 +7,6 @@ params.put("Tecnologia","JavaLuis")
 
 echo ' *******llamando libreria **** '
 
-
+echo ' *******branch **** ' + env.BRANCH_NAME
 global_params()
 echo ' *******fin de libreria **** '
