@@ -5,7 +5,7 @@ def params = [:]
 echo ' *******mensaje de entrada **** '
 params.put("Tecnologia","JavaLuis")
 
-echo ' *******llamando libreria **** '
+echo ' *******analizamos RAMAS RAMAS **** '
 
 
 if (env.BRANCH_NAME.matches("rama(.*)")){
